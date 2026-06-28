@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "fx2ide") (type "KiCad") (uri "${KIPRJMOD}/fx2ide.pretty") (options "") (descr ""))
+)
