@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 120">
+
+  <g fill="none" stroke="black" stroke-width="4"
+     stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- body -->
+    <rect x="10" y="10" width="120" height="100" rx="8"/>
+
+    <!-- chip -->
+    <rect x="42" y="32" width="56" height="45" rx="3"/>
+
+    <!-- chip pins -->
+    <path d="M30 42H42 M30 54H42 M30 66H42"/>
+    <path d="M98 42H110 M98 54H110 M98 66H110"/>
+
+
+    <!-- USB symbol horizontal -->
+    <g stroke-width="3">
+
+      <!-- main shaft -->
+      <path d="M52 55 H92"/>
+
+      <!-- start circle -->
+      <circle cx="52" cy="55" r="3" fill="black"/>
+
+      <!-- arrow -->
+      <path d="
+        M92 55
+        L86 50
+        M92 55
+        L86 60"/>
+
+      <!-- upper curved branch -->
+      <path d="
+        M60 55
+        C60 49 63 46 67 46"/>
+      <circle cx="70" cy="46" r="3" fill="black"/>
+
+      <!-- lower curved branch -->
+      <path d="
+        M64 55
+        C64 61 67 64 71 64"/>
+      <rect x="71" y="61" width="6" height="6"
+            fill="black"/>
+
+    </g>
+
+
+    <!-- IDE connector -->
+    <rect x="32" y="92" width="76" height="8"/>
+
+    <path d="
+      M42 92V100
+      M52 92V100
+      M62 92V100
+      M72 92V100
+      M82 92V100
+      M92 92V100"/>
+
+
+    <!-- corner points -->
+    <circle cx="22" cy="22" r="2.5" fill="black"/>
+    <circle cx="118" cy="22" r="2.5" fill="black"/>
+    <circle cx="22" cy="98" r="2.5" fill="black"/>
+    <circle cx="118" cy="98" r="2.5" fill="black"/>
+
+  </g>
+</svg>
